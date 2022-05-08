@@ -176,10 +176,13 @@ nav .menu, nav .close-menu{
 /* ------ M E N U - E X P A N D E D ------ */
 body.menu-expanded {
   overflow: hidden;
-  
 }
 
 body.menu-expanded > :not(nav) {
+  visibility: hidden;
+}
+
+body.menu-expanded footer{
   visibility: hidden;
 }
 
