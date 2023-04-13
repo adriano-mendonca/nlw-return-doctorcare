@@ -87,7 +87,6 @@ section .content p {
   line-height: 150%;
   color: var(--paragraph);
   font-weight: 400;
-  
 }
 
 .btn-agenda {
@@ -631,8 +630,6 @@ footer .social-links {
   #home .content p {
     font-size: 1.8rem;
   }
-
-  
 
   #home .stats {
     grid-area: C;
